@@ -1,0 +1,521 @@
+/*-------------------------------------------------------------------------------------------------
+* Filename: styles.css
+* Website: http://www.themeflash.com
+* Author: system32
+* Description: Handles the site layout.
+--------------------------------------------------------------------------------------------------*/
+
+/* Global Reset
+--------------------------------------------------------------------------------------------------*/
+body	{
+	margin:0;
+	padding:0;
+	background-image: url(/web/20250712015323im_/http://globalcarelogistics.com/images/blue/bg.jpg);
+	background-repeat: repeat;
+		}
+
+* html	{
+		margin:0;padding:0;
+		}
+
+.clear	{ clear:both;}
+
+img {border:0;}
+
+
+
+/* Headings
+--------------------------------------------------------------------------------------------------*/
+
+h1	{
+ 	font: bold 26px/28px "Trebuchet MS", Arial, Helvetica, sans-serif; 				
+	letter-spacing:-1px;
+	padding:0;
+	margin: 0;
+	}
+
+h2	{
+	font: bold 22px/24px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+	letter-spacing:-1px;
+	padding:0;
+	margin:0;
+	}
+
+h3	{
+	font: bold 18px/20px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+	padding: 0;
+	margin: 0;
+	}
+
+h4	{
+	font: bold 14px/16px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+	padding: 0px;
+	margin:0px 0 ;
+	}
+
+h5	{
+	font: normal 12px/14px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+	padding: 0px;
+	margin:0;
+	}
+
+h6	{
+	padding:0px;
+	font: normal 10px/12px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+	margin:0;
+	}
+
+p	{
+	margin:5px 0 10px 0;
+	}
+
+
+/* topbar
+--------------------------------------------------------------------------------------------------*/
+.topbar	{
+	height:120px;
+	width:100%;
+		}
+
+	.logo	{
+			padding:10px 0 0 0px;
+			}
+		
+		
+/* topmenu
+--------------------------------------------------------------------------------------------------*/
+.topmenu	{
+	margin-top:90px;
+	float:right;
+			}
+
+
+/* index sliderpart
+--------------------------------------------------------------------------------------------------*/
+
+.sliderbg	{
+			overflow:hidden;
+			height:310px;
+			} 	
+	.slider_text	{
+					margin:0;
+					padding:0;	
+					}
+
+		 .slider_text h1	 {
+							 margin:60px 0 0 10px;
+							 }
+	 
+			.slider_text p	{
+							margin:20px 0 0px 10px;
+							}
+	 	 
+				.button	{
+						margin:20px 0 20px 10px;
+						}
+				
+
+/* subheader
+--------------------------------------------------------------------------------------------------*/
+
+.subheader	{
+			width:100%;
+			height:100px;
+			}
+
+	.subheader h2	{
+					padding-top:40px;
+					margin:0;
+					padding-left:40px;
+					}
+
+		.subheader p	{
+						}	
+	
+			.subheader h5	{ 
+							padding-top:35px;
+							margin:0 30px 0 0; 
+							}
+
+
+/* topbox
+--------------------------------------------------------------------------------------------------*/
+.topbox	{
+		overflow:hidden;
+		height:100%;
+		margin:0;
+		padding:20px 0 0 0;
+		}
+	
+.topimg {
+		margin:5px 0;
+		}
+		
+	.topbox h3	a { 
+				 }
+					
+			.topbox h3 span	 {
+							}
+			
+						.topbox p	{ 
+									text-align:left;
+									}
+									
+
+								
+/* midcontent
+--------------------------------------------------------------------------------------------------*/
+.midcontent {
+			height:100%;
+			overflow:hidden;
+			margin:0;
+			padding:0px 0;
+			}
+
+	.content	{
+	overflow:hidden;
+	height:100%;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+				}
+
+		.sidebar	{
+					margin:0 0px 0 0;
+					overflow:hidden;
+					min-height:500px;
+					height:100%;
+					}
+					
+			
+/* newslist
+--------------------------------------------------------------------------------------------------*/
+ul.newslist	{
+			margin:10px 0px 10px 0;
+			padding:0;
+			list-style:square;
+			}
+
+	ul.newslist li	{
+					padding:5px 0px;
+					}
+
+		ul.newslist li p	{
+							margin:0 0 10px 0;	
+							padding:0;
+							}
+
+			ul.newslist li a:link, 
+			ul.newslist li a:visited, 
+			ul.newslist li a:active	{
+									padding:0px 0px;
+									}
+
+				ul.newslist li a:hover	{
+										padding:0px 0px;
+										}
+
+					ul.newslist li span {
+										display:block;
+										margin-bottom:0px;
+										}
+										
+
+/* submenu
+--------------------------------------------------------------------------------------------------*/
+
+ul.subnav{
+	margin:0 0 20px 0;
+	padding:0;
+}
+
+	ul.subnav li {
+	margin-left:0px;
+	list-style-type:none;
+	}
+
+								
+		ul.subnav li a img	{
+				vertical-align:middle;
+				margin-right:5px;
+				}
+
+	ul.subnav li a {
+	height:20px;
+	margin:0px 0;
+	}
+
+	ul.subnav li li a {
+	margin:0;
+	text-decoration:none;
+	}
+
+	ul.subnav li li a:link, ul.subnav li li a:visited {
+	display:block;	
+	padding:5px 0px;
+	}
+
+	ul.subnav li a:link, ul.subnav li a:visited {
+	display:block;
+	padding:5px 0px;	
+	}
+
+	ul.subnav li a:hover {
+	padding:5px 0px;	
+	}
+	
+
+/* services servicebox
+--------------------------------------------------------------------------------------------------*/
+
+.servicebox	{
+		width:620px;
+		margin:0px 0 0px 0px;
+		float:left;
+		padding:20px 20px 0px 0px;
+		overflow:hidden;
+		height:100%;
+		}
+
+		.servicetext h3 span	 {
+				display:block;
+				}
+		
+		.serviceicon	{
+					vertical-align:top;
+					float:left;
+					width:70px;
+					}
+
+		
+
+/* Inco Terms boxes
+--------------------------------------------------------------------------------------------------*/
+.portbox	{ 
+		float:left; 
+		padding:0px 8px;
+		margin-bottom:30px;
+		width:280px;
+		} 
+		
+	.portbox img	{ 
+				margin-bottom:10px;
+				width:270px;
+				}	
+		
+		.portbox p 	{
+						margin:5px 0 0 0; 
+						padding:0; 
+						} 
+		
+			.portbox h3	{ 
+						display:block; 
+						margin:0 0 0px 0; 
+						padding:0px; 
+
+						} 
+
+				.portbox img, .portbox p span, .portbox h3	{ 
+											display:block; 
+											}
+
+					.img_border	{
+								margin-bottom:10px; 
+								padding:1px;
+								}
+
+						.img_border:hover	{
+											}
+	
+
+/* read more
+--------------------------------------------------------------------------------------------------*/
+a.read	{
+		float:right;
+		padding:5px 0;
+		}
+
+		a.read:hover	{
+				}
+
+
+
+/* testimonial block
+--------------------------------------------------------------------------------------------------*/
+blockquote	{
+			padding:0 15px 0;
+			margin:0px;
+			}
+
+	.entry blockquote	{
+						margin:0 0 20px 0; 
+						padding:20px;
+						}
+						
+		blockquote, q	{
+						quotes: none;
+						}
+
+		blockquote:before, blockquote:after,
+		q:before, q:after	{
+							content: '';
+							content: none;
+							}
+
+			blockquote	{
+						margin: 15px 0px 15px 5px;
+						padding-right: 5px;
+						}
+
+			blockquote p	{
+ 							}
+
+
+/* footer details
+--------------------------------------------------------------------------------------------------*/
+.footerbg	{
+			width:100%;
+			overflow:hidden;
+			height:100%;
+			}
+
+	.copyright	{
+	margin:0;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 5px;
+	padding-left: 0;
+				}
+	
+
+	
+
+/* Post Entry
+--------------------------------------------------------------------------------------------------*/
+.entry	{
+	clear:both;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+		}
+
+		
+		.entry .post-info	{
+							margin:8px 0;
+							}
+		
+			.entry ul, .entry ol	{
+									margin:0;
+									padding:10px 0 20px 0;
+									}		
+
+
+div.excerpt	{
+			overflow:hidden;
+			height:100%;
+			}		
+
+
+		.singlepost h3	{
+					margin-bottom:20px;
+					}
+						
+			.singlepost h2 a	{
+							background:none;
+							}
+
+	
+
+				.postimg	{
+						float:left;
+						margin-right:20px;
+						}
+						
+
+/* Success Messages
+--------------------------------------------------------------------------------------------------*/
+.notes 		{	background: #f0f0f0;border: 1px solid #b8b8b8;}
+.success 	{	background: #ccfcd1;border: 1px solid #60a400;}
+.error		{	background: #f9e3e3;	border: 1px solid #e79e9e;}
+.notice 	{	background: #fcf0cc;border: 1px solid #ecc735;}
+
+	.notes, 
+	.notice, 
+	.success, 
+	.error 
+			{
+			font-size: 100%;
+			color:#484848;
+			padding:10px;
+			width:auto;
+			margin: 0 0 20px 0px; 
+			text-align:left
+			}
+	.notes span, 
+	.notice span, 
+	.success span, 
+	.error span 
+			{
+			font-weight: bold;
+			font-size: 1.2em;
+			padding: 2px 40px;
+			}
+	.notes p, 
+	.success p, 
+	.error p,
+	.notice p 
+			{
+			margin: 0px;
+			padding: 0px 40px;
+			}		
+		
+.contactusloc {
+	font-family: Verdana;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	float: left;
+	width: 600px;
+}
+
+.cmenu {
+	background-image:url(/web/20250712015323im_/http://globalcarelogistics.com/images/blue/cmenu.png);
+	background-repeat:no-repeat;
+	color:#333;
+}
+.cmenuo {
+	background-image:url(/web/20250712015323im_/http://globalcarelogistics.com/images/blue/cmenuo.png);
+	background-repeat:no-repeat;
+	color:#333;
+}
+.cmenua {
+	background-image:url(/web/20250712015323im_/http://globalcarelogistics.com/images/blue/cmenua.png);
+	background-repeat:no-repeat;
+	color:#333;
+}
+
+/*
+     FILE ARCHIVED ON 01:53:23 Jul 12, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:40:47 Apr 14, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 3.953
+  load_resource: 223.535
+  PetaboxLoader3.resolve: 94.291
+  PetaboxLoader3.datanode: 98.661 (2)
+  loaddict: 61.601
+*/
