@@ -1,16 +1,7 @@
-/*-------------------------------------------------------------------------------------------------
-* Filename: styles.css
-* Website: http://www.themeflash.com
-* Author: system32
-* Description: Handles the site layout.
---------------------------------------------------------------------------------------------------*/
-
-/* Global Reset
---------------------------------------------------------------------------------------------------*/
 body	{
 	margin:0;
 	padding:0;
-	background-image: url(/web/20250712015323im_/http://globalcarelogistics.com/images/blue/bg.jpg);
+	background-image: url(../images/bg.jpg);
 	background-repeat: repeat;
 		}
 
@@ -488,34 +479,17 @@ div.excerpt	{
 }
 
 .cmenu {
-	background-image:url(/web/20250712015323im_/http://globalcarelogistics.com/images/blue/cmenu.png);
+	background-image:url(../images/cmenu.png);
 	background-repeat:no-repeat;
 	color:#333;
 }
 .cmenuo {
-	background-image:url(/web/20250712015323im_/http://globalcarelogistics.com/images/blue/cmenuo.png);
+	background-image:url(../images/cmenuo.png);
 	background-repeat:no-repeat;
 	color:#333;
 }
 .cmenua {
-	background-image:url(/web/20250712015323im_/http://globalcarelogistics.com/images/blue/cmenua.png);
+	background-image:url(../images/cmenua.png);
 	background-repeat:no-repeat;
 	color:#333;
 }
-
-/*
-     FILE ARCHIVED ON 01:53:23 Jul 12, 2025 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 07:40:47 Apr 14, 2026.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  capture_cache.get: 3.953
-  load_resource: 223.535
-  PetaboxLoader3.resolve: 94.291
-  PetaboxLoader3.datanode: 98.661 (2)
-  loaddict: 61.601
-*/

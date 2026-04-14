@@ -1,9 +1,4 @@
-/*-------------------------------------------------------------------------------------------------
-* Filename: styles.css
-* Website: http://www.themeflash.com
-* Author: system32
-* Description: Handles the site layout.
---------------------------------------------------------------------------------------------------*/
+
 
 /* Global Reset
 --------------------------------------------------------------------------------------------------*/
@@ -15,7 +10,7 @@ body	{
 	line-height: 20px;
 	font-weight: normal;
 	font-variant: normal;
-	background-image: url(/web/20250711171149im_/http://globalcarelogistics.com/images/blue/footer.jpg);
+	background-image: url(../images/footer.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 		}
@@ -95,7 +90,7 @@ p	{
 --------------------------------------------------------------------------------------------------*/
 .topbar	{
 	background-color:#789ECD;
-	background-image: url(/web/20250711171149im_/http://globalcarelogistics.com/images/blue/ship1.jpg);
+	background-image: url(../images/ship1.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 		}
@@ -115,7 +110,7 @@ p	{
 
 .sliderbg	{
 	background-color: #7294C4;
-	background-image: url(/web/20250711171149im_/http://globalcarelogistics.com/images/blue/sliderbg.jpg);
+	background-image: url(../images/sliderbg.jpg);
 	background-repeat: repeat-y;
 	background-position: center bottom;
 			} 	
@@ -139,7 +134,7 @@ p	{
 --------------------------------------------------------------------------------------------------*/
 
 .subheader	{
-			background:url(/web/20250711171149im_/http://globalcarelogistics.com/images/blue/subheader2.jpg) repeat-x;	
+			background:url(../images/subheader2.jpg) repeat-x;	
 			}
 
 	.subheader h2	{
@@ -191,7 +186,7 @@ p	{
 --------------------------------------------------------------------------------------------------*/
 .midcontent {
 	background-color: #5B80B4;
-	background-image: url(/web/20250711171149im_/http://globalcarelogistics.com/images/blue/bg_body.jpg);
+	background-image: url(../images/bg_body.jpg);
 	background-repeat: repeat-y;
 	background-position: center top;
 			}
@@ -200,7 +195,7 @@ p	{
 				}
 
 		.sidebar	{
-					background:url(/web/20250711171149im_/http://globalcarelogistics.com/images/sidebar.jpg) top right no-repeat;
+					background:url(../images/sidebar.jpg) top right no-repeat;
 					}
 					
 			
@@ -335,7 +330,7 @@ blockquote	{
 --------------------------------------------------------------------------------------------------*/
 
 .footerbg	{
-	background-image: url(/web/20250711171149im_/http://globalcarelogistics.com/images/blue/footer.jpg);
+	background-image: url(../images/footer.jpg);
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-color: #5E8CC7;
@@ -395,20 +390,3 @@ div.excerpt	{
 
 				.postimg	{
 						}
-
-/*
-     FILE ARCHIVED ON 17:11:49 Jul 11, 2025 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 07:40:47 Apr 14, 2026.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  capture_cache.get: 13.136
-  load_resource: 678.35
-  PetaboxLoader3.resolve: 546.304
-  PetaboxLoader3.datanode: 80.127 (2)
-  loaddict: 119.724
-*/
