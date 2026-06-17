@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Untitled Page</title>
+    <script language="javascript" type="text/javascript">
+    //check for valid integer number
+     
+    function validprice(name)
+    {
+        var state = true;
+        var ch;
+        var i;
+        for(i=0;i<name.length;i++)
+        {
+            ch = name.charAt(i);
+            if((ch>="0" && ch<="9") || (ch == "."))
+	            continue;
+            else return false;
+        }
+        return true;
+    }
+    
+    
+    function calculate1()
+    {
+        var length,breath,height,cnt,result;
+        
+        length = document.getElementById("txt_len1").value;
+        breath = document.getElementById("txt_brth1").value;
+        height = document.getElementById("txt_height1").value;
+        cnt = document.getElementById("txt_noofbox1").value;
+        
+        if(!validprice(length))
+        {alert("Please Enter valid length");
+         document.getElementById("txt_len1").select();return false;}
+         
+         if(!validprice(breath))
+        {alert("Please Enter valid breath");
+         document.getElementById("txt_brth1").select();return false;}
+         
+         if(!validprice(height))
+        {alert("Please Enter valid height");
+         document.getElementById("txt_height1").select();return false;}
+         
+         if(!validprice(cnt))
+        {alert("Please Enter valid No of Boxes");
+         document.getElementById("txt_noofbox1").select();return false;}
+        
+        result = parseFloat(parseFloat(length) * parseFloat(breath) * parseFloat(height) * parseFloat(cnt))/6000;
+        
+        //alert(result);
+        document.getElementById("txt_res1").value=result;
+    }
+    
+    function calculate2()
+    {
+        var length,breath,height,cnt,result;
+        length = document.getElementById("txt_len2").value;
+        breath = document.getElementById("txt_brth2").value;
+        height = document.getElementById("txt_height2").value;
+        cnt = document.getElementById("txt_noofbox2").value;
+        
+        if(!validprice(length))
+        {alert("Please Enter valid length");
+         document.getElementById("txt_len2").select();return false;}
+         
+         if(!validprice(breath))
+        {alert("Please Enter valid breath");
+         document.getElementById("txt_brth2").select();return false;}
+         
+         if(!validprice(height))
+        {alert("Please Enter valid height");
+         document.getElementById("txt_height2").select();return false;}
+         
+         if(!validprice(cnt))
+        {alert("Please Enter valid No of Boxes");
+         document.getElementById("txt_noofbox2").select();return false;}
+        
+        result = parseFloat(parseFloat(length) * parseFloat(breath) * parseFloat(height) * parseFloat(cnt))/366;
+        
+        //alert(result);
+        document.getElementById("txt_res2").value=result;
+    }
+    
+    function calculate3()
+    {
+        var length,breath,height,cnt,result;
+        length = parseFloat(document.getElementById("txt_len3").value)/100;
+        breath = parseFloat(document.getElementById("txt_brth3").value)/100;
+        height = parseFloat(document.getElementById("txt_height3").value)/100;
+        cnt = document.getElementById("txt_noofbox3").value;
+        
+        if(!validprice(length))
+        {alert("Please Enter valid length");
+         document.getElementById("txt_len3").select();return false;}
+         
+         if(!validprice(breath))
+        {alert("Please Enter valid breath");
+         document.getElementById("txt_brth3").select();return false;}
+         
+         if(!validprice(height))
+        {alert("Please Enter valid height");
+         document.getElementById("txt_height3").select();return false;}
+         
+         if(!validprice(cnt))
+        {alert("Please Enter valid No of Boxes");
+         document.getElementById("txt_noofbox3").select();return false;}
+         
+        result = parseFloat(parseFloat(length) * parseFloat(breath) * parseFloat(height) * parseFloat(cnt));
+        
+        //alert(result);
+        document.getElementById("txt_res3").value=result;
+    }
+</script>    
+</head>
+<body>
+<div>
+
+<table width="100%">
+<tr><td>SHIPMENTS by AIR.</td></tr>
+<tr><td>
+LENGTH x BREATH x HEIGHT x NUMBER OF BOXES the whole divided by
+6000 if the cargo dimension is in CENTIMETERS = WEIGHT OF THE CARGO IN
+KGS.
+</td></tr>
+<tr><td>
+    (
+    <input id="txt_len1" type="text" />
+    *
+    <input id="txt_brth1" type="text" />
+    *
+    <input id="txt_height1" type="text" />
+    *
+    <input id="txt_noofbox1" type="text" />
+    ) / 6000 <input id="submit1" type="button" value="=" onclick="calculate1();" />
+    <input id="txt_res1" type="text" />
+    in KGS</td></tr>
+    <tr>
+        <td>
+        </td>
+    </tr>
+<tr><td>
+LENGTH x BREATH x HEIGHT x NUMBER OF BOXES the whole divided by 366
+if the cargo dimension is in INCHES = WEIGHT OF THE CARGO IN KGS.
+</td></tr>
+<tr><td>
+    (
+    <input id="txt_len2" type="text" />
+    *
+    <input id="txt_brth2" type="text" />
+    *
+    <input id="txt_height2" type="text" />
+    *
+    <input id="txt_noofbox2" type="text" />
+    ) / 366 <input type="button" value="=" name="submit" onclick="calculate2();" />
+    <input id="txt_res2" type="text" />
+    in KGS</td></tr>
+    <tr>
+        <td>
+        </td>
+    </tr>
+<tr><td>
+SHIPMENTS by SEA.
+</td></tr>
+<tr><td>
+LENGTH/100 x BREATH/100 x HEIGHT/100 x NUMBER OF BOXES =
+VOLUME OR THE CARGO IN CUBIC METERS.
+</td></tr>
+<tr>
+<td>
+<input id="txt_len3" type="text" /> / 100
+*
+<input id="txt_brth3" type="text" /> / 100
+*
+<input id="txt_height3" type="text" /> / 100
+*
+<input id="txt_noofbox3" type="text" /> <input type="button" value="=" name="submit" onclick="calculate3();" /> 
+<input id="txt_res3" type="text" /> in CUBIC METERS
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
